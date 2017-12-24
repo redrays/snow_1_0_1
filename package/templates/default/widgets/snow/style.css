@@ -1,0 +1,19 @@
+body {
+    background: url(bg.jpg) no-repeat center top fixed !important;
+    margin: 0;
+    padding: 0;
+
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+     background-size: cover!important;
+}
+#layout {
+  margin: 20px auto;
+}
+#garland{position:absolute;top:-20px;left:0;background-image:url('garland.png');height:36px;width:100%;overflow:hidden;z-index:99999999999999;}  
+#nums_1{padding:100px}  
+.garland_1{background-position: 0 0;z-index:99999999999999;}  
+.garland_2{background-position: 0 -36px;z-index:99999999999999;}  
+.garland_3{background-position: 0 -72px;z-index:99999999999999;}  
+.garland_4{background-position: 0 -108px;z-index:99999999999999;}
